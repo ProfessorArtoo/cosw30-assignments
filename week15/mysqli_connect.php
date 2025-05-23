@@ -5,10 +5,10 @@
 // selects the database, and sets the encoding.
 
 // Set the database access information as constants:
-define('DB_USER', 'u5cvzomu5pwpb');
-define('DB_PASSWORD', 'cosw30!2025');
-define('DB_HOST', '127.0.0.0');
-define('DB_NAME', 'dbu8zpdkawjv9e');
+define('DB_USER', 'YOUR_DB_USERNAME');
+define('DB_PASSWORD', 'YOUR_DB_PASSWORD');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'YOUR_DB_NAME');
 
 // Make the connection:
 $dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) OR die('Could not connect to MySQL: ' . mysqli_connect_error() );
