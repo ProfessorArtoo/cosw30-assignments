@@ -117,3 +117,5 @@ function check_login($dbc, $email = '', $pass = '') {
     <li>Send the URL to your 'index.php' for your login system.</li>
     <li>Provide credentials to login to your system for testing.</li>
 </ul>
+
+<p>This is a change</p>
